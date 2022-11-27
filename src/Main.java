@@ -110,29 +110,101 @@ public class Main {
             System.out.println(i);
             i++;
         }*/ //Домашнее задание
-        /*int x = 15;
+/* //№1 int x = 15;
         int y = 20;
         if (x == 20) {
             System.out.println("x");
         } else {
             System.out.println("y");
         }*/
-       /* int a = 5000;
+        /*
+/* //№2 int a = 5000;
         if (a < 5000){
-            System.out.println(""); //Не понял как решить эту задачу
+            System.out.println("Скидка 10%");
         }
         else {
             System.out.println("Скидки нет");
         }*/
        /* int i = 5;
         while (i > 0) {
-            System.out.println(i);
+            System.out.print(i);
             i--;
         }*/
-        int a = 1;
-        while (a < 0){
-            System.out.println(1);
-            a++;
-        }
+
+/* //i      for(int i = 0; i < 4;i++){
+            for(int j = 0; j < 10;j++){
+                System.out.print("*");
+            }
+            System.out.println("");
+        }*/
+
+//ii
+      /*  int z = 5;
+        for(int i = 0; i < z; i++){
+            for (int x = 0; x < i + 1; x++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+//iii
+        /*for(int i = 1; i <= 5; i++) {
+            for (int a = i; a <= 4; a++) {
+                System.out.print(" ");
+            }
+            for (int z = i; z > 0; z--) {
+                System.out.print(z);
+            }
+            for (int x = 2; x <= i; x++) {
+                System.out.print(x);
+            }
+            System.out.println();
+        }*/
+/* // 3
+        int grade = 80;
+        if (grade < 25){
+            System.out.println("Ваша оценка - F");
+        } else if (grade < 45) {
+            System.out.println("Ваша оценка - E");
+        } else if (grade < 50) {
+            System.out.println("Ваша оценка - D");
+        } else if (grade < 60){
+            System.out.println("Ваша оценка - C");
+        } else if (grade < 80){
+            System.out.println("Ваша оценка -B");
+        } else {
+            System.out.println("Ваша оценка - A");
+        }*/
+
+/* //№4 for (int i = 5; i >= 1; i--) {
+            System.out.print(i);
+        }*/
+/* //№6 int a = 2;
+        int b = 4;
+        for(int m = a; m <= b;m++)
+        System.out.print(m);*/
+
+/* //№8        int i = 5;         //Кажется я не правильно понял условие задачи,и вывел просто значение бонусов взависимости от класса
+        while (i > 0) {
+            System.out.println("Класс A: 50%");
+            while (i >= 0) i++;{
+                System.out.println("Класс B: 25%");
+                while(i <= 0)i++;{
+                    System.out.println("Класс C: 0%");
+                    break;
+                }
+            }
+        }*/
+/* №9   int n = 12;
+        int a = 0, b = 1;
+        System.out.print(a + " " + b);
+        int z = 2, i = 2;
+        while (i < n) {
+            z = a + b;
+            a = b;
+            b = z;
+            System.out.print(" " + z);
+            i++;
+        }*/
     }
 }

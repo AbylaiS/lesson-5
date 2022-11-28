@@ -206,5 +206,22 @@ public class Main {
             System.out.print(" " + z);
             i++;
         }*/
+        int salary = 3;
+        while (salary >= 0) {
+            for (int doubleSalary = 1; salary >= doubleSalary;doubleSalary--)
+                switch (doubleSalary) {
+                    case 1: {
+                        System.out.println("Если A -> salary = salary * 1.5 ");
+                    }
+                    case 2: {
+                        System.out.println("Если B -> salary = salary * 1.25");
+                    }
+                    case 3: {
+                        System.out.println("Если C -> salary = salary * 1");
+                    }
+                    break;
+                }
+            break;
+        }
     }
 }

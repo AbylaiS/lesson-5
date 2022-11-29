@@ -206,7 +206,7 @@ public class Main {
             System.out.print(" " + z);
             i++;
         }*/
-        int salary = 3;
+       /* int salary = 3;
         while (salary >= 0) {
             for (int doubleSalary = 1; salary >= doubleSalary;doubleSalary--)
                 switch (doubleSalary) {
@@ -222,6 +222,36 @@ public class Main {
                     break;
                 }
             break;
+        }*/
+   /*     int salary = 500000;
+        int doubleSolary = 0;
+        while(salary >= doubleSolary){
+            System.out.println("");
         }
+        switch (doubleSolary){
+            case 1: {
+                System.out.println("Если A -> salary = salary * 1.5");
+            }
+            case 2: {
+                System.out.println("Если B -> salary = salary * 1.25");
+            }
+            case 3: {
+                System.out.println("Если C -> salary = salary * 1");
+            }
+        }*/
+        int salary = 500000;
+        char grade = 'B';
+        switch (grade) {
+            case 'A':
+                salary *= 1.5;
+                break;
+            case 'B':
+                salary *= 1.25;
+                break;
+            case 'C':
+                salary *= 1;
+                break;
+        }
+        System.out.println(salary);
     }
 }
